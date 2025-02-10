@@ -19,3 +19,6 @@ Condensat de mon fichier index.js :
 - avec md5 : ``MD5(index.js)= d86c84d128b3c69c24bed2601cacdb36``
 - avec sha-1 : ``SHA1(index.js)= 4ee8335d21d3c7f401d36b4f8624c8e6e6f770dd``
 
+## Question 3.2
+``openssl dgst -sha256 -verify server.pub -signature index.js.sign index.js
+``
